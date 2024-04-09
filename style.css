@@ -78,10 +78,41 @@ button {
 }
 
 img {
-    max-width: 500px;
+    width: 30em;
     box-shadow: 10px 10px 5px rgb(33, 32, 32);
     aspect-ratio: 2/1;
     
+}
+
+@media (max-width: 1170px) {
+    .container-container-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-text {
+        width: 90%;
+    }
+}
+@media (max-width: 960px) {
+    .container-text {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 832px) {
+    .header-container, ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    
+    ul li {
+        border-top: 1px solid rgba(22, 24, 26, 0.8) ;
+        padding: 1em;
+    }
+    .header-logo {
+        padding-bottom: 1em;
+    }
 }
 
 /*TOP CONTAINER----------------*/
