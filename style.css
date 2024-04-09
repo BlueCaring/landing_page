@@ -136,25 +136,25 @@ img {
     flex-direction: row;
     padding: 0;
     justify-content: center;  
+    flex-wrap: wrap;
 }
 
 .c-square {
-    padding: 5%;   
+     padding: 1em;
 }
 
 
 
 .container-squares .square {
     border: 5px solid var(--main-blue);
-    max-width: 150px;
-    min-width: 150px;
-    height: 150px;
+    padding: 5em 5em;   
     border-radius: 20px;   
 }
 
 
 .container-squares p {
     opacity: 0.7;
+    max-width: 10em;
 }
 
 /* quote -------------*/
@@ -185,8 +185,6 @@ img {
     padding: 2em 5em;
     display: flex;
     justify-content: space-between;
-    
-    
 }
 
 .action {
